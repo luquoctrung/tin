@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(221, 226, 226);
+  padding: 10px;
+  margin: 50px;
+
+  height: 500px;
+}
+h1 {
+  color: rgb(153, 48, 48);
+  font-size: 100px;
+  margin: 50px;
+  text-align: center;
+}
+.input {
+  display: flex;
+  height: 60px;
+  width: 100%;
+}
+input {
+  width: 100%;
+  border: 1px hidden;
+  font-style: italic;
+  font-size: 20px;
+  margin: 5px;
+}
+ul li {
+  font-size: 30px;
+}
+ul li span {
+  position: absolute;
+  right: 100px;
+  text-align: center;
+  border-radius: 15px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+}
+ul li span:hover {
+  background: #861629;
+}
+.complete {
+  text-decoration: line-through;
+  font-size: 30px;
+}
